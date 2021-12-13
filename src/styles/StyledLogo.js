@@ -6,13 +6,17 @@ export const StyledLogo = styled.div`
   min-height: 10vh;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+
+  top: 0;
   align-items: flex-end;
   h1 {
     border-radius: 25px;
     padding: 0.2rem 2rem;
     margin-bottom: 0.2rem;
     color: rgb(55, 203, 176, 0.7);
-
+    font-weight: 100;
     background: linear-gradient(
       to bottom,
       #fff 0%,

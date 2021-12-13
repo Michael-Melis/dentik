@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
 }
     body{
 
-        
         background: linear-gradient(#37CBB0, #194E44);
     }
 `;
