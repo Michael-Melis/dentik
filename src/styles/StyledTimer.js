@@ -19,8 +19,8 @@ export const Circle = styled.div`
   box-shadow: 1px 2px 20px black;
   border-radius: 50%;
   margin-top: 5rem;
-  width: 60vw;
-  height: 30vh;
+  width: 15rem;
+  height: 15rem;
   margin-top: 8rem;
   a {
     text-decoration: none;
