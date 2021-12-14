@@ -31,6 +31,10 @@ export const StyledHowToClean = styled.div`
     margin: 1rem 3rem;
     font-size: 1rem;
   }
+  img {
+    width: 80%;
+    margin: 1rem auto;
+  }
   p {
     margin: 2rem 3rem;
     color: #fff;
@@ -39,10 +43,34 @@ export const StyledHowToClean = styled.div`
       margin-left: 1rem;
     }
   }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  ul {
+    text-align: center;
+  }
 `;
 
 export const Line = styled.div`
   margin: 1rem 2rem;
   box-shadow: 2px 2px 4px black;
   border-bottom: 2px solid rgb(255, 255, 255, 0.7);
+`;
+
+export const FloatingBtn = styled.button`
+  position: sticky;
+  width: 50%;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  top: 80%;
+  left: 90%;
+  background: #fff;
+  border: 1px solid white;
+
+  a {
+    text-decoration: none;
+    color: #37cbb0;
+  }
 `;

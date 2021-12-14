@@ -5,6 +5,7 @@ const StyledVideo = styled.div`
   overflow: hidden;
   display: flex;
   justify-content: center;
+  margin: 2rem 0;
 `;
 const StyledIframe = styled.iframe`
   height: 80%;
