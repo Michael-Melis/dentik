@@ -6,10 +6,6 @@ export const StyledLogo = styled.div`
   min-height: 10vh;
   display: flex;
   justify-content: center;
-  position: fixed;
-  width: 100%;
-
-  top: 0;
   align-items: flex-end;
   h1 {
     border-radius: 25px;

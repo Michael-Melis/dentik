@@ -4,12 +4,15 @@ import Clean from "../img/cisteni.svg";
 import CalendarBtn from "../img/calendar.svg";
 import Study from "../img/study.svg";
 import { StyledNav, StyledNavButton } from "../styles/StyledNav";
-
 import { Routes, Route, Link } from "react-router-dom";
 import Cleaning from "../pages/Cleaning";
 import MainMenu from "../pages/MainMenu";
 import Information from "../pages/Information";
-import Calendar from "../pages/Calendar";
+import CalendarComponent from "../pages/CalendarComponent";
+import HowToClean from "../pages/InfoPages/HowToClean";
+import DentalCare from "../pages/InfoPages/DentalCare";
+import Facts from "../pages/InfoPages/Facts";
+import Supplements from "../pages/InfoPages/Supplements";
 
 const Nav = () => {
   return (
@@ -17,8 +20,12 @@ const Nav = () => {
       <Routes>
         <Route path="/" element={<MainMenu />} />
         <Route path="/cleaning" element={<Cleaning />} />
-        <Route path="/calendar" element={<Calendar />} />
+        <Route path="/calendar" element={<CalendarComponent />} />
         <Route path="/information" element={<Information />} />
+        <Route path="/information/howtoclean" element={<HowToClean />} />
+        <Route path="/information/dental" element={<DentalCare />} />
+        <Route path="/information/facts" element={<Facts />} />
+        <Route path="/information/health" element={<Supplements />} />
       </Routes>
       <StyledNav>
         <Link to="/">
