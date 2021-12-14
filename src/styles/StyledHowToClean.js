@@ -49,6 +49,9 @@ export const StyledHowToClean = styled.div`
   }
   ul {
     text-align: center;
+    li {
+      margin: 1rem 0;
+    }
   }
 `;
 

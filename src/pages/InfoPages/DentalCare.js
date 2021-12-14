@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   StyledHowToClean,
   Line,
@@ -181,6 +181,17 @@ const DentalCare = () => {
       <img src={electricToothbrush} alt="Elektric oscilation" />
 
       <h2 id="sonic">Elektrický sonický kartáček</h2>
+      <p>
+        Pod pojmem elektrický zubní kartáček si většina z nás představí kartáček
+        s kulatou hlavou, která zubní plak odstraňuje rotačním pohybem.{" "}
+      </p>
+      <p>
+        Takový pohyb ale dráždí dásně, proto se z dlouhodobějšího hlediska
+        označuje rotační zubní kartáček za nevhodný dokonce až škodlivý. Sonický
+        zubní kartáček tento problém eliminuje a vzhledem se hodně podobá
+        klasickému kartáčku. Sonický zubní kartáček čistí zuby pomocí
+        technologie vysokofrekvenčního kmitání.
+      </p>
       <YoutubeEmbed embedId="ZEg7n67edpM" />
       <h2 id="single">Jednosvazkový kartáček</h2>
       <p>
@@ -199,6 +210,40 @@ const DentalCare = () => {
         S klasickým kartáčkem se nedostaneme do mezizubních prostor, kde se
         usazují zbytky potravy.{" "}
       </p>
+      <h2>Sonický vs klasický zubní kartáček</h2>
+      <p>
+        Při čištění klasickým zubním kartáčkem jsme schopni udělat zhruba šest
+        set čistících pohybů za minutu, zatímco frekvence kmitání sonického
+        kartáčku se pohybuje v rozmezí 8 000 až 40 000 čistících pohybů za
+        minutu. Z toho vyplývá, že sonický kartáček je mnohanásobně výkonnější
+        než klasický, ale neznamená to, že se dostane do mezizubních prostor.
+      </p>
+      <h2>Výhody a nevýhody sonického zubního kartáčku</h2>
+      <p>
+        Vysokofrekvenční kmity rozbijí i ten nejodolnější plak a vyčistí zuby
+        efektivněji než jakýkoli klasický manuální kartáček. Výbornou funkcí
+        sonických, ale i jiných elektrických kartáčků je časovač. Když člověk
+        ráno pospíchá, nebo je myšlenkami jinde, snadno zapomene, jak dlouho si
+        zuby čistí. Elektrický kartáček s časovačem se po uplynutí času sám
+        vypne.
+      </p>
+      <p>
+        Jedinou nevýhodou sonických kartáčků je vyšší cena, ta se u
+        kvalitnějších sonických kartáčků pohybuje mezi 1000 až 8000 Kč. Výměnné
+        náhradní hlavice na sonický kartáček stojí cca 90-175 Kč za kus (ceny
+        jsou aktuální k listopadu 2021). Sonický kartáček je sice finančně
+        náročnější, ale jeho výhody za vyšší cenu stojí
+      </p>
+      <p>
+        Pro jeho používání je nutná též správná technika čištění a následně je
+        potřebné dočistit zuby s mezizubními kartáčky či zubními nitěmi. Další
+        výhodou sonických kartáčků je senzor, který vás upozorní, že máte
+        vyměnit hlavici kartáčku ve chvíli, kdy už je opotřebovaná a mohla by
+        poškodit dáseň. Štětiny kartáčku jsou také vybavené barevným
+        indikátorem. Pokud na štětinách zmizí barva, pak byste měli hlavici
+        vyměnit.
+      </p>
+
       <img src={mezizubni} alt="Mezizubni kartacek" />
       <p>
         Mezizubní kartáčky slouží nejen k čištění mezizubních prostorů, ale i
