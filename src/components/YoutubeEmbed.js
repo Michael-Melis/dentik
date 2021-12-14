@@ -3,17 +3,13 @@ import styled from "styled-components";
 
 const StyledVideo = styled.div`
   overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+  display: flex;
+  justify-content: center;
 `;
 const StyledIframe = styled.iframe`
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
 
-  position: absolute;
   border-radius: 15px;
 `;
 

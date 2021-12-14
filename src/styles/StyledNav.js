@@ -11,6 +11,10 @@ export const StyledNav = styled.div`
   position: fixed;
   width: 100%;
   bottom: 0;
+  a {
+    text-decoration: none;
+    color: #37cbb0;
+  }
 `;
 
 export const StyledNavButton = styled.div`

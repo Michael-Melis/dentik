@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { StyledInfo, StyledInfoLinks, Dot } from "../styles/StyledInformation";
+import { StyledInfo, StyledInfoLinks } from "../styles/StyledInformation";
 
 const Information = () => {
   return (

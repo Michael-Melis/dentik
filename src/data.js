@@ -21,6 +21,22 @@ export const data = [
   },
   {
     id: 6,
+    text: "Nespoléhejte se a nevěřte na „dobrou genetiku“! Zuby se zkazí když jsou špinavé, čistý zub se nikdy nezkazí!",
+  },
+  {
+    id: 7,
+    text: "Nevěřte slepě reklamám. Je to jen lákadlo, ale žádná zubní pasta vám sama zuby nevyčistí.",
+  },
+  {
+    id: 8,
+    text: "Jak správně používat mezizubní kartáčky, nitě a jiné pomůcky pro dentální hygienu s vámi nacvičí dentální hygienistka, popřípadě váš stomatolog",
+  },
+  {
+    id: 9,
     text: "Není pravda, že si musíte čistit zuby alespoň 3 minuty a potom budou čisté. Čisté zuby poznáte, pokud jsou při doteku jazykem všude hladké. Někomu trvá kvalitní vyčištění 2 minuty a někomu 15minut",
+  },
+  {
+    id: 10,
+    text: "Ať už klasickým kartáčkem nebo jednosvazkovým/solo kartáčkem si můžete čistit zuby bez pasty i u televize/počítače, nebo kdekoli jinde a čtvrt hodina u televize vám nebude připadat tak dlouhá jako v koupelně.",
   },
 ];
