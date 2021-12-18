@@ -1,10 +1,12 @@
 import React from "react";
-import { StyledLogo } from "../styles/StyledLogo";
+import { StyledLogo, StyledLogoBackground } from "../styles/StyledLogo";
 
 const Logo = () => {
   return (
     <StyledLogo>
-      <h1>Dentik</h1>
+      <StyledLogoBackground>
+        <h1>Dentik</h1>
+      </StyledLogoBackground>
     </StyledLogo>
   );
 };

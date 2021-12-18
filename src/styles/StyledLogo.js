@@ -1,24 +1,35 @@
 import styled from "styled-components";
 
 export const StyledLogo = styled.div`
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: #6ad6bc;
   border-radius: 0 0 5px 5px;
   min-height: 10vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   align-items: flex-end;
+  font-family: "Antonio";
+`;
+
+export const StyledLogoBackground = styled.div`
+  background: linear-gradient(
+    to bottom,
+    #fff 40%,
+    #dcf6f1 60%,
+    #b8ede3 80%,
+    rgb(55, 203, 176, 0.85) 100%
+  );
+  padding: 0.1rem 2rem;
+  border-radius: 25px;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h1 {
-    border-radius: 25px;
-    padding: 0.2rem 2rem;
-    margin-bottom: 0.2rem;
     color: rgb(55, 203, 176, 0.7);
-    font-weight: 100;
-    background: linear-gradient(
-      to bottom,
-      #fff 0%,
-      #dcf6f1 80%,
-      #b8ede3 90%,
-      #37cbb0 100%
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+    
     );
   }
 `;

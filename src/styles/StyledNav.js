@@ -4,8 +4,8 @@ export const StyledNav = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #d1dddb;
-  color: #37cbb0;
+  background-color: #6ad6bc;
+  color: #194e44;
   padding: 1.5rem 1rem;
   border-radius: 5px 5px 0 0;
   position: fixed;
@@ -13,7 +13,7 @@ export const StyledNav = styled.div`
   bottom: 0;
   a {
     text-decoration: none;
-    color: #37cbb0;
+    color: #194e44;
   }
 `;
 

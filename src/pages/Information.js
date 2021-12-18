@@ -1,24 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { StyledInfo, StyledInfoLinks } from "../styles/StyledInformation";
+import {
+  StyledInfo,
+  StyledInfoLinks,
+  StyledInfoHeader,
+  StyledList,
+  StyledIconCircle,
+} from "../styles/StyledInformation";
+
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Information = () => {
   return (
     <StyledInfo>
-      <h1>Naučte se správne čistit své zuby</h1>
+      <StyledInfoHeader>
+        <h1>Naučte se správne čistit své zuby</h1>
+      </StyledInfoHeader>
       <StyledInfoLinks>
         <ul>
           <Link to="/information/howtoclean">
-            <li>Jak správne čistit?</li>
+            <StyledList>
+              <StyledIconCircle icon={faCircle} />
+              <li>Jak správne čistit?</li>
+            </StyledList>
           </Link>
           <Link to="/information/dental">
-            <li>Jak vybrat dentální pomůcky?</li>
+            <StyledList>
+              <StyledIconCircle icon={faCircle} />
+              <li>Jak vybrat dentální pomůcky?</li>
+            </StyledList>
           </Link>
           <Link to="/information/facts">
-            <li>Desatoro pro čištění zubů</li>
+            <StyledList>
+              <StyledIconCircle icon={faCircle} />
+              <li>Desatoro pro čištění zubů</li>
+            </StyledList>
           </Link>
           <Link to="/information/health">
-            <li>Vliv výživy na zuby</li>
+            <StyledList>
+              <StyledIconCircle icon={faCircle} />
+              <li>Vliv výživy na zuby</li>
+            </StyledList>
           </Link>
         </ul>
       </StyledInfoLinks>

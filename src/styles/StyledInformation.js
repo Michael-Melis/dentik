@@ -1,25 +1,20 @@
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const StyledInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  h1 {
-    margin: 3rem 0;
-    width: 50%;
-    text-align: center;
-    color: #fff;
-    font-size: 2rem;
-  }
 `;
 
 export const StyledInfoLinks = styled.div`
-  background-color: rgb(255, 255, 255, 0.7);
-  border-radius: 15px;
+  background-color: #194e44;
+  border-radius: 27px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   a {
-    color: #194e44;
-    list-style: disc;
+    color: #fff;
+    list-style: none;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -31,10 +26,32 @@ export const StyledInfoLinks = styled.div`
   }
 `;
 
-export const Dot = styled.div`
-  border: 1px solid white;
-  background: whiter;
-  border-radius: 50%;
-  width: 0.5rem;
-  height: 0.5rem;
+export const StyledInfoHeader = styled.div`
+  margin: 2rem 5rem 0 5rem;
+  h1 {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 15px;
+    margin: 1.4rem 0;
+    padding: 0.5rem 1.5rem;
+
+    text-align: center;
+    color: #194e44;
+    font-size: 1.5rem;
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+`;
+
+export const StyledList = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+`;
+
+export const StyledIconCircle = styled(FontAwesomeIcon)`
+  color: #37cbb0;
+  margin-left: 1rem;
+  font-size: 0.6rem;
 `;

@@ -9,7 +9,8 @@ const Facts = () => {
         {data.map((fact) => {
           return (
             <StyledFact>
-              <li>{fact.text}</li>
+              <p>{fact.id}.</p>
+              <h3>{fact.text}</h3>
             </StyledFact>
           );
         })}
